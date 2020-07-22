@@ -1,3 +1,8 @@
+'''
+  Perform basic string compression using count of consecutive repeated characters
+'''
+
+
 def string_compression(s):
   l = []
   count = 0
