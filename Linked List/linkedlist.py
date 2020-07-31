@@ -85,6 +85,21 @@ def delete_position(head,position):
 	#start points to current position-1
 		start.next = start.next.next
 
+#Reverse the list
+def reverse(head):
+	prev_node = head
+	next_node = prev_node.next
+	while next_node :
+		temp = next_node.next
+		next_node.next = prev_node
+		prev_node = next_node
+		next_node = temp
+	head.next = None
+	return prev_node
+	
+
+
+
 	
 	
 

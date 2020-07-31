@@ -1,3 +1,7 @@
+'''
+	Remove duplicates from a linked list
+'''
+
 #!/usr/bin/env python3
 
 
