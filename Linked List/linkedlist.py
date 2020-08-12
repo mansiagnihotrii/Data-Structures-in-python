@@ -13,7 +13,7 @@ class LinkedList:
 def create_list(list1):
 	size = int(input("Size of linked list:"))
 	for _ in range(size):
-		new = input("Enter value:   ")
+		new = int(input("Enter value:   "))
 		if list1.head is None:
 			list1.head = Node(new)
 		else:
