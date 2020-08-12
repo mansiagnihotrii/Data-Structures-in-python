@@ -9,7 +9,6 @@ class LinkedList:
   def __init__(self):
     self.head = None
     
-
 #Create linked list
 def create_list(list1):
 	size = int(input("Size of linked list:"))
